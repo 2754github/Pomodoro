@@ -5,7 +5,7 @@ import math
 from time import sleep
 
 args=sys.argv
- 
+
 SCREEN_SIZE=(300, 100)
 WORK=int(args[1])
 BREAK=int(args[2])
@@ -39,7 +39,7 @@ while True:
 	pygame.draw.arc(screen,(200,255,200),(0,0,100,100),0,2*math.pi,10)
 	pygame.draw.arc(screen,(255,200,200),(10,10,80,80),0,2*math.pi,10)
 	pygame.draw.rect(screen,(200,200,200),exit_button)
-	
+
 	screen.blit(text1,(120,35))
 	screen.blit(text2,(120,55))
 	screen.blit(text3,(260,80))
